@@ -1,0 +1,132 @@
+@media (min-width: 600px) and (max-width: 1024px) {
+    #contenedorGeneralImg{
+        height: 35em;
+    }
+    #Branding, #web, #photo, #app{
+        top: calc(50% - (32em/2));
+        left: calc(50% - (32em/2));
+        width: 32em;
+        height: 32em;
+        grid-template-columns: repeat(3, 10em);
+        grid-template-rows: repeat(3, 10em);
+    }
+}
+@media (min-width: 671px) and (max-width: 933px) {
+    header{
+        height: 9em;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+@media (min-width: 320px) and (max-width: 671px) {
+    header nav{
+        display: none;
+    }
+    header img{
+        margin-left: 2em;
+        height: 3em;
+    }
+    #menuMobile{
+        margin-right: 1.5em;
+        display: initial;
+        color: var(--color_1);
+        font-size: 1.5em;
+    }
+    #portafolio nav{
+        left: calc(50% - (19em/2));
+        width: 19em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 2em;
+    }
+    #portafolio nav .botonesNav{
+        padding: .5em .3em;
+    }
+    /* GRID */
+    #contenedorGeneralImg{
+        height: 30em;
+    }
+    #Branding, #web, #photo, #app{
+        top: calc(50% - (95%/2));
+        left: calc(50% - (95%/2));
+        width: 95%;
+        height: 95%;
+        grid-template-columns: repeat(2, 8em);
+        grid-template-rows: repeat(3, 8em);
+        justify-content: space-around   
+    }
+    #items1{
+        grid-row: 1/1;
+    }
+    #items2{
+        grid-row: 1/1
+    }
+    #items3{
+        grid-row: 2/3;
+    }
+    #items4{
+        grid-row: 2/3;
+    }
+    #items5{
+        grid-row: 3/4;
+    }
+    #items6{
+        grid-row: 3/4;
+    }
+    #items7{
+        grid-row: 1/1;
+    }
+    #items8{
+        grid-row: 1/1
+    }
+    #items9{
+        grid-row: 2/3;
+    }
+    #items10{
+        grid-row: 2/3;
+    }
+    #items11{
+        grid-row: 3/4;
+    }
+    #items12{
+        grid-row: 3/4;
+    }
+    #items13{
+        grid-row: 1/1;
+    }
+    #items14{
+        grid-row: 1/1
+    }
+    #items15{
+        grid-row: 2/3;
+    }
+    #items16{
+        grid-row: 2/3;
+    }
+    #items17{
+        grid-row: 3/4;
+    }
+    #items18{
+        grid-row: 3/4;
+    }
+    #items19{
+        grid-row: 1/1;
+    }
+    #items20{
+        grid-row: 1/1
+    }
+    #items21{
+        grid-row: 2/3;
+    }
+    #items22{
+        grid-row: 2/3;
+    }
+    #items23{
+        grid-row: 3/4;
+    }
+    #items24{
+        grid-row: 3/4;
+    }
+}
